@@ -26,9 +26,9 @@ _start:
 
 section .data		; start of initialized data segment
 
-  number dq 2764921
+	number dq 2764921
 
 section .bss		; start of uninitialized data segment
 
-  number_str_len equ 21
-  number_str resb number_str_len ; output string, 20 digits plus newline
+	number_str_len equ 21
+	number_str resb number_str_len ; output string, 20 digits plus newline
