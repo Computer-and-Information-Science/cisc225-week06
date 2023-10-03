@@ -7,6 +7,11 @@ Programming exercises for week 6.
 Print the 8-bit value in the AL register to the console in binary form.
 The output should consist of eight bits represented in ASCII form.
 
+## diff-abs-value.asm
+
+Find the absolute value of *x - y* leaving the result in *abs*, where *x* are
+*y* are initialized as quadwords, and *abs* is storage for the quadword result.
+
 ## print-hexadecimal.asm
 
 Print the value of the quadword stored at *number* to the console in
