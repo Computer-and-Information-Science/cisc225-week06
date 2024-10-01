@@ -26,7 +26,7 @@ _start:
 
 section .data		; start of initialized data segment
 
-	al_str db "xxxxxxxx",0xa		; string with newline
+	al_str db "00000000",0xa		; string with newline
 	al_str_len equ $-al_str	    ; length of hello_str
 
 section .bss		; start of uninitialized data segment
